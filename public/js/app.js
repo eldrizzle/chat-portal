@@ -45,6 +45,10 @@ function appendToDom(data) {
                                     <img src="/img/clock.png" alt="clock">
                                     <small>${moment(data.time).format('LT')}</small>
                                 </div>
+                                <div>
+                <button id="submitBtn" class="btn btn-primary float-right">Reply</button>
+
+                                </div>
                             </div>
                         </div>
     `
